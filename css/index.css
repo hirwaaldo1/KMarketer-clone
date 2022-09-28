@@ -26,7 +26,7 @@ body{
     text-align: right;
     margin-right:150px ;
 }
-.list__item {
+.header__menu {
     display: inline-block;
     margin-right: 20px;
     font-weight: 600;
@@ -125,7 +125,16 @@ body{
     color: #252B42;
     margin: 0;
 }
-.products__desc,.questions__desc,.teams__desc{
+.products__desc{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.teams__desc{
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
@@ -171,6 +180,14 @@ body{
     text-align: center;
     margin-top: 100px;
 }
+.questions__desc{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
 .service__img{
     width: 100%;
     pointer-events: none;
@@ -187,14 +204,14 @@ body{
     background-color: white;
     border-radius: 3px;
 }
-.card__p{
+.card__paragraph{
     font-weight: 600;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.2px;
     line-height: 3px;
 }
-.card__p--active{
+.card__paragraph--active{
     color: #FFA62B;
 }
 .card__cover{
@@ -208,13 +225,13 @@ body{
     text-align: center;
     margin-top: 100px;
 }
-.cardteams{
+.card-teams{
     display: grid;
     grid-template-columns: auto auto auto;
     margin-top: 50px;
     margin-bottom: 100px;
 }
-.cardteams__item{
+.card-teams__item{
     width: fit-content;
     border: 2px solid #EEEEEE;
 }
@@ -340,7 +357,7 @@ body{
     margin-top: 20px;
     cursor: pointer;
 }
-.agency__p--large{
+.agency__paragraph--large{
     font-family: 'Montserrat', sans-serif ;
     font-style: normal;
     font-weight: 700;
@@ -349,7 +366,7 @@ body{
     letter-spacing: 0.1px;
     color: #252B42;
 }
-.agency__p--small{
+.agency__paragraph--small{
     font-family: 'Montserrat', sans-serif ;
     font-style: normal;
     font-weight: 500;
@@ -358,7 +375,7 @@ body{
     letter-spacing: 0.2px;
     color: #737373;
 }
-.agency__p{
+.agency__paragraph{
     line-height: 10px;
 }
 .footer{
@@ -447,7 +464,7 @@ body{
         grid-template-columns: auto auto;
         margin-top: 50px;
     }
-    .cardteams{
+    .card-teams{
         display: grid;
         grid-template-columns:auto auto;
         margin-top: 50px;
@@ -460,7 +477,7 @@ body{
         grid-template-columns:  auto;
         margin-top: 50px;
     }
-    .cardteams{
+    .card-teams{
         display: grid;
         grid-template-columns:auto;
         margin-top: 50px;
@@ -470,7 +487,7 @@ body{
     .form__textarea{
         width: 60%;
     }
-    .cardteams{
+    .card-teams{
         margin-left: auto;
         width: fit-content;
         padding: 0;
