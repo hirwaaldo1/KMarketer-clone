@@ -49,11 +49,11 @@ body{
     text-align: center;
     margin-top: 100px;
 }
-.fqs{
+.questions{
     padding-left: 12%;
     padding-right: 5%;
 }
-.term{
+.teams{
     padding-left: 12%;
     padding-right: 5%;
 }
@@ -97,11 +97,11 @@ body{
     border: none;
     color: white;
 }
-.why{
+.products{
     text-align: center;
     margin-top: 130px;
 }
-.why__title{
+.products__title{
     font-weight: 700;
     font-size: 40px;
     line-height: 57px;
@@ -109,7 +109,7 @@ body{
     color: #252B42;
     margin: 0;  
 }
-.fqs__title{
+.questions__title{
     font-weight: 700;
     font-size: 40px;
     line-height: 57px;
@@ -117,7 +117,7 @@ body{
     color: #252B42;
     margin: 0;
 }
-.term__title{
+.teams__title{
     font-weight: 700;
     font-size: 40px;
     line-height: 57px;
@@ -125,7 +125,7 @@ body{
     color: #252B42;
     margin: 0;
 }
-.why__desc,.fqs__desc,.term__desc{
+.products__desc,.questions__desc,.teams__desc{
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
@@ -175,7 +175,7 @@ body{
     width: 100%;
     pointer-events: none;
 }
-.fqs{
+.questions{
     text-align: center;
     padding-top: 100px;
     padding-bottom: 50px;
@@ -204,33 +204,33 @@ body{
     border-radius: 100%;
     object-fit: cover;
 }
-.term{
+.teams{
     text-align: center;
     margin-top: 100px;
 }
-.cardterm{
+.cardteams{
     display: grid;
     grid-template-columns: auto auto auto;
     margin-top: 50px;
     margin-bottom: 100px;
 }
-.cardterm__item{
+.cardteams__item{
     width: fit-content;
     border: 2px solid #EEEEEE;
 }
-.cardterm__img{
+.cardteams__img{
     height: 231px;
     width: 328px;
     object-fit: cover;
 }
-.term__name{
+.teams__name{
     font-weight: 700;
     font-size: 16px;
     line-height: 14px;
     text-align: center;
     letter-spacing: 0.1px;
 }
-.term__pro{
+.teams__pro{
     font-weight: 600;
     font-size: 14px;
     line-height: 14px;
@@ -238,10 +238,10 @@ body{
     letter-spacing: 0.2px;
     color: #737373;
 }
-.term__footer{
+.teams__footer{
     margin-left: -50px;
 }
-.term__list {
+.teams__list {
     display: inline;
     margin-left: 12px;
 }
@@ -312,7 +312,7 @@ body{
     padding-left: 12%;
     padding-right: 5%;
 }
-.why{
+.products{
     padding-left: 12%;
     padding-right: 5%;   
 }
@@ -447,7 +447,7 @@ body{
         grid-template-columns: auto auto;
         margin-top: 50px;
     }
-    .cardterm{
+    .cardteams{
         display: grid;
         grid-template-columns:auto auto;
         margin-top: 50px;
@@ -460,7 +460,7 @@ body{
         grid-template-columns:  auto;
         margin-top: 50px;
     }
-    .cardterm{
+    .cardteams{
         display: grid;
         grid-template-columns:auto;
         margin-top: 50px;
@@ -470,7 +470,7 @@ body{
     .form__textarea{
         width: 60%;
     }
-    .cardterm{
+    .cardteams{
         margin-left: auto;
         width: fit-content;
         padding: 0;
